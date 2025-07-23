@@ -1,0 +1,73 @@
+.Box{
+  padding: 29px 40px;
+  background:  #ffff;
+  position: absolute;
+  bottom: 0;
+  margin-top: 10px;
+  border-top-width: 11px;
+  width: auto;
+  border-top: rgb(250, 37, 232);
+  
+   
+  @media (max-width: 1000px) {
+    padding: 70px 30px;
+  }
+}
+   
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    /* background: red; */
+}
+   
+.Column {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  margin-left: 60px;
+  width:auto;
+  @media (max-width: 1000px) {
+    .Column: repeat(auto-fill, 
+                           minmax(200px, 1fr));
+  }
+}
+   
+.Row{
+  display: flex;
+  grid-template-columns: repeat(auto-fill, 
+                         minmax(185px, 1fr));
+  grid-gap: 10px;
+   
+  @media (max-width: 1000px) {
+   .Row: repeat(auto-fill, 
+                           minmax(200px, 1fr));
+  }
+}
+   
+.FooterLink {
+  color: rgb(233, 25, 153);
+  margin-bottom: 10px;
+  font-size: 1vw;
+  text-decoration: none;
+   
+  /* hover: {
+      color: green;
+      transition: 200ms ease-in;
+  } */
+}
+   
+.Heading{
+  font-size: 1vw;
+  color: rgb(233, 25, 153);
+  margin-bottom: 5px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.imgresponsivefooter {
+  width:50px;
+  height: auto;
+}

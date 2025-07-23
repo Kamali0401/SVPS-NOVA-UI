@@ -1,0 +1,20 @@
+.carouselcontainer {
+    position: absolute;
+    left:9vw;
+    top: 0px;
+    bottom: 1px;
+    right: 0px;
+    margin: 0px;
+  }
+  
+  .scrollable {
+    overflow-y: scroll;
+    margin-top: 0px;
+    height: calc(100% - 124px);
+    /*124px => 10px on container margin + 79px top div + 15px button + 20 px this top margin*/
+  }
+  
+  .border {
+    /* border: 0px solid; */
+    height:100%;
+  }

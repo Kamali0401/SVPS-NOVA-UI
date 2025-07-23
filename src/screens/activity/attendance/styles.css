@@ -1,0 +1,21 @@
+.grid-table thead {
+  background-color: #f7f7f7;
+}
+.grid-table thead tr td {
+  border: 0.5px solid rgb(211, 211, 211);
+  text-align: center;
+  padding: 10px 0px;
+}
+.grid-table tbody tr td {
+  border: 0.5px solid rgb(211, 211, 211);
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.report-btns-block {
+  border-radius: 8px;
+  box-shadow: rgba(189, 196, 196, 0.12) 0px 2px 16px 5px,
+    rgba(137, 137, 137, 0.3) 0px 2px 16px 8px;
+  width: 100%;
+  margin: auto;
+}

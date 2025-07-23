@@ -1,0 +1,140 @@
+.sub-nav {
+    position: absolute; /* Position it outside the main nav */
+    left: 100%; /* Place it to the right of the parent nav */
+    top: 0; /* Align the top of the sub-nav with the parent */
+    /*width: 25%; /* Set desired width */
+    list-style-type: none; /* Remove bullet points */
+    display: none; /* Hide by default */
+    background-color: #2b3e50; /* Background color */
+    padding: 0;
+    margin: 0;
+    z-index: 999; /* Ensure it's above other elements */
+    margin-bottom: 12%;
+  }
+  .sub-nav li {
+    margin: 0; /* Ensure no extra space is added */
+    box-sizing: border-box; /* Include padding and border in dimensions */
+  }
+  .nav > li {
+    position: relative; /* Makes the parent nav item the positioning context */
+  }
+  .nav  li:hover .sub-nav {
+    display: block; /* Show the sub-menu on hover */
+  }
+  .nav li:focus, .sub-nav li:focus {
+    outline: 2px solid #ffd700; /* Highlight focused item */
+  }
+  .sub-nav li {
+    margin: 0; /* Remove space between items */
+    padding: 10px; /* Add padding for better spacing */
+    text-align: left; /* Align text to the left */
+    border-bottom: 1px solid #1d2c3a; /* Optional: Add a separator */
+  }
+  
+  .sub-nav li:last-child {
+    border-bottom: none; /* Remove the separator for the last item */
+  }
+  
+  .sub-nav li a {
+    color: #fff; /* Set text color */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Ensure links take up the full width */
+    text-align: left;
+  
+  }
+  .sidebar-nav .nav li {
+    background: linear-gradient(90deg, rgba(33,39,47,1) 0%, rgba(52,80,95,1) 100%);
+      color: #fff;
+      width: 100%;
+      padding: 11px 39px;
+      border-bottom: 1px solid #fff;
+  }
+  .sidebar-nav .nav {
+     /* width:88%;*/
+      margin:auto
+  }
+  .sidebar-nav .nav li a {
+      font-size:14px;
+      color:#fff;
+      text-decoration:none;font-weight: bold;
+  }
+  .navbar {
+      border-bottom:1px solid #ccc;
+      padding:0;
+  }
+  .navbar-toggler {
+      padding: 0;
+  }
+  .sub-nav li:hover {
+    background-color: #1d2c3a; /* Change background on hover */
+  }
+  
+  .nav li {
+      padding: 10px 15px; /* Add padding for spacing */
+      /*background-color: #2b3e50; /* Default background color */
+      color: #fff; /* Default text color */
+      cursor: pointer; /* Change cursor to pointer on hover */
+      border-bottom: 1px solid #1d2c3a; /* Optional separator between items */
+      transition: all 0.3s ease; /* Smooth transition for hover effect */
+    }
+    
+    .nav li:hover {
+     /* background-color: #3a4b5c; /* Highlight background color */
+      color: #ecb211; /* Highlight text color */
+    /*box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); */
+   }
+    
+    .nav li.active {
+      background-color: #3a4b5c; /* Active item background color */
+      color:#ecb211; /* Active item text color */
+      font-weight: bold; /* Optional: Make active item bold */
+    }
+    .nav li.selected {
+      background-color:  #e71fb2; /* Background color for selected item */
+      color: #ffffff; /* Text color for selected item */
+      font-weight: bold; /* Make the text bold */
+      border-left: 5px solid #ffffff; /* Highlight with a left border */
+    }
+
+    @media (max-width: 1024px) and (max-height: 600px) {
+        .announcementlink {
+          font-size: 12px; /* Customize the font size */
+          font-weight: bold;
+        }
+      }
+      .sidebar-offcanvas {
+        width: 18% !important; /* or set specific width for large screens if necessary */
+      }
+      
+      /* For screens 768px and below (mobile/medium devices) */
+      @media (max-width: 768px) {
+        .sidebar-offcanvas {
+          width: 25% !important;
+          text-align: "center";
+          font-size: 12px;
+        }
+      }
+      @media (max-width: 712px) {
+        .sidebar-offcanvas {
+         width: 25% !important;
+          text-align: "center";
+          font-size: 12px;
+        }
+      }
+      @media (max-width: 820px) {
+        .sidebar-offcanvas {
+            width: 25% !important;
+          text-align: "center";
+          font-size: 12px;
+        }
+      }
+      @media (max-width: 1024px) {
+        .sidebar-offcanvas {
+            width: 25% !important;
+          text-align: "center";
+          font-size: 12px;
+        }
+      }
+      
+     
+  

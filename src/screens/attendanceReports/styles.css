@@ -1,0 +1,47 @@
+.grid-table thead {
+  background-color: #f7f7f7;
+}
+.grid-table thead tr td {
+  border: 0.5px solid rgb(211, 211, 211);
+  text-align: center;
+  padding: 10px 0px;
+}
+.grid-table tbody tr td {
+  border: 0.5px solid rgb(211, 211, 211);
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.report-btns-block {
+  border-radius: 8px;
+  box-shadow: rgba(189, 196, 196, 0.12) 0px 2px 16px 5px,
+    rgba(137, 137, 137, 0.3) 0px 2px 16px 8px;
+  width: 100%;
+  margin: auto;
+}
+/* For screen width between 712px and 768px */
+@media (min-width: 712px) and (max-width: 768px) {
+  .custom-container {
+    
+    margin-top: 20%; /* Adjust margin for smaller screens */
+    
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1024px) {
+  .custom-container {
+    
+    margin-top: 5%; /* Adjust margin for smaller screens */
+    
+  }
+}
+
+/* For screens smaller than 712px */
+@media (max-width: 712px) {
+  .custom-container {
+  
+    margin-top: 20%;
+   
+  
+  }
+}

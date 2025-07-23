@@ -1,0 +1,103 @@
+import { getRoles } from "@testing-library/react";
+
+export const API = {
+  Login: "connect/token",
+  validateUser: "/changePassword/login",
+  resetPassword: "api/user/",
+  /*getShops: "shop/",
+  getShopdbyLocation: "shop/GetShopsByLocation",
+  getCategories: "ProductCategory/",
+  getSubCategories: "subcategory/",
+  getProducts: "Product/",
+  getProductsbySubcategory: "ShopProducts/GetShopProductsBySubCategory",
+  getShopAds: "ShopAds/",
+  postOrder: "ShopOrder/CreateOrder",
+  getLookup: "LookUp/",*/
+  generateOtp: "otp/GenerateOtp",
+  verifyOtp: "otp/VerifyOTP",
+  sendOrderSMS: "otp/SendPikatooSMS",
+  updateProfile: "otp/UpdateProfile",
+  getProfile: "otp/UserProfile",
+  /*getShopSubcategory: "ShopSubCategory",
+  putShop: "Shop",
+  getShop: "Shop/getShopMaster/",
+  putLocation: "Location",
+  getLocation: "Location",
+  saveShopProfilePic: "ShopGallery",
+  getShopOrderDetails: "ShopOrder/OrderDetails",
+  getShopProductsBysearch: "ShopProducts/GetShopProductsBySearch",
+  putShopProducts: "ShopProducts",
+  GetAllShopProducts: "ShopProducts/GetAllShopProducts",
+  putBulkShopProducts: "ShopProducts/AddMultiShopProducts",
+  placeOrder: "Sales/CreateOrder",
+  getOrders: "Sales/Orders",
+  getOrderDetails: "Sales/OrderDetails",
+  getOrderStatus: "Sales/OrderStatus",
+  updateOrderStatus: "Sales/CreateOrderStatus",
+  addproduct: "Product",*/
+
+  
+
+  // getAlumniByName: "/GetAlumniByName",
+
+  /*AMS endpoints */
+  /*getActivities: "/getallactivitydata",
+  getActivityById: "/getactivitydata",
+  saveActivities: "/InsertActivityData",
+  updateActivityData: "/updateactivitydata",
+  deleteActivityData: "/deleteactivitydata",*/
+
+  getAluminies: "/GetAllAlumniDetails",
+  saveAluminies: "/InsertAlumniDetails",
+  updateAluminiData: "/UpdateAlumniDetails",
+  deleteAluminiData: "/DeleteAlumniDetails",
+
+  /*saveStudents: "/InsertStudent",
+  updateStudentData: "/UpdateStudent",
+  deleteStudentData: "/DeleteStudent",*/
+
+  /*saveFaculties: "/InsertFaculty",
+  updateFacultyData: "/UpdateFaculty",
+  deleteFacultyData: "/DeleteFaculty",*/
+
+  getRoles: "/role",
+  house: "/house",
+  HouseActivity: "/houseActivity",
+  Subject: "/subject",
+  Section: "/section",
+  Exam: "/exam",
+  HolidayCalendar: "/holidayCalendar",
+  Timetable: "/timeTable",
+  AcademicCalendar: "/academicCalendar",
+  SectionSubjectMapping: "/sectionSubjectMapping",
+  SectionStudentMapping: "/sectionStudentMapping",
+  getStudents: "/student",
+  getFacultyByName: "/faculty/name",
+  getStudentByName: "/student/name",
+  getFaculties: "/faculty",
+  getActivities: "/activity",
+  uploadFiles: "/uploadAttachment/uploadAtivityAttachments",
+  getInterestedStudentList: "/upcomingCompetition/CompetitionList?",
+  uploadFacultyfiles: "/uploadAttachment",
+  downloadFiles: "/activity/downlaodactivityfiles",
+  downloadListbasedonRole: "/attendancereports/ExcelList?",
+  upcomingCompetitionRole: "/upcomingCompetition/byrole",
+  upcomingCompetition: "/upcomingCompetition",
+  getTransulate: "/Announcement/Transulate?",
+  Announcement: "/Announcement",
+  bulkupload: "/bulkupload",
+  DownloadTemplate: "/downloads/downloadTemplate",
+  verifypassword: "/GetVerifyPassword",
+  updatePasswordData: "/changePassword/VerifyPassword",
+  getAllMarkReports: "/mark/studentmarkreport?",
+  downloadStudentFiles: "/student/downloadFiles",
+  downloadFacultyFiles: "/faculty/downloadfacultyFiles",
+  getEmailUpdate: "/mark/ReadyToSendEmail?",
+  getAllAttendance: "/attendance",
+ getStudentMark: "/mark",
+deleteMark: "/mark/deleteMarks",
+ generateAttendancesubjectwisereport: "/attendancereports/monthwiseReport?",
+ generateAttendanceCumulativeReport: "/attendancereports/CumulativeReport?",
+generateAttendanceMonthwisereport: "/attendancereports/DailyAttendanceReport?",
+
+};

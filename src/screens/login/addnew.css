@@ -1,0 +1,261 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+.profile-menu .dropdown-menu {
+	right: 0;
+	left: unset;
+}
+.profile-menu .fa-fw {
+	margin-right: 10px;
+}
+ .toggle-change::after {
+ border-top: 0;
+ border-bottom: 0.3em solid;
+}
+#sidebar {
+	/*padding: 0 15px 15px 15px;*/
+	margin-top:0px;
+	border-right:1px solid #ccc;
+}
+
+body {
+	background: #ffffff;
+	margin: 0em;
+	font-family: "Open Sans", sans-serif;
+}
+.form-control {
+	display: block;
+	width: 89%;
+}
+.dropdown-item {
+	font-size:12px;
+}
+
+.navbar {
+	border-bottom:1px solid #ccc;
+	padding:0;
+}
+.navbar-toggler {
+	padding: 0;
+}
+.formsec {
+	/*width:70%;*/
+	padding-left:12%;
+	padding-top:3%;
+}
+.radio-btn input[type="radio"], .check-box input[type="checkbox"] {
+	visibility: hidden;
+}
+/*Custom checkbox*/
+ .check-box {
+	width: 17px;
+	height: 17px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 2px 7px 0 0;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 0 1px #ccc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	/*background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(47%, rgba(246, 246, 246, 1)), color-stop(100%, rgba(237, 237, 237, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);*/
+    border: 1px solid #ccc;
+}
+.check-box i {
+	background: #22678e;
+	position: absolute;
+	left: 2px;
+	bottom: -15px;
+	width: 11px;
+	height: 11px;
+	opacity: 1;
+}
+.check-box1 {
+	width: 17px;
+	height: 17px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 2px 7px 0 0;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 0 1px #ccc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	/*background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(47%, rgba(246, 246, 246, 1)), color-stop(100%, rgba(237, 237, 237, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);*/
+    border: 1px solid #ccc;
+}
+.check-box1 i {
+	background: #22678e;
+	position: absolute;
+	left: 2px;
+	bottom: -15px;
+	width: 11px;
+	height: 11px;
+	opacity: 1;
+}
+.check-box2 {
+	width: 17px;
+	height: 17px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 2px 7px 0 0;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 0 1px #ccc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	/*background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(47%, rgba(246, 246, 246, 1)), color-stop(100%, rgba(237, 237, 237, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);*/
+    border: 1px solid #ccc;
+}
+.check-box2 i {
+	background: #22678e;
+	position: absolute;
+	left: 2px;
+	bottom: -15px;
+	width: 11px;
+	height: 11px;
+	opacity: 1;
+}
+.checkedBox {
+/* -moz-box-shadow: inset 0 0 5px 1px #ccc;
+    -webkit-box-shadow: inset 0 0 5px 1px #ccc;
+    box-shadow: inset 0 0 5px 1px #ccc;
+    border-bottom-color: #fff;*/
+}
+.checkedBox i {
+	bottom: 2px;
+	-webkit-transform:rotateZ(0deg);
+	-moz-transform:rotateZ(0deg);
+	-o-transform:rotateZ(0deg);
+	transform:rotateZ(0deg);
+}
+/*Custom radio button*/
+ .radio-btn {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	float: left;
+	margin: 3px 7px 0 0;
+	cursor: pointer;
+	position: relative;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 1px #ccc;
+	background: rgb(255, 255, 255);
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(47%, rgba(246, 246, 246, 1)), color-stop(100%, rgba(237, 237, 237, 1)));
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+	background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+	background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
+}
+.checkedRadio {
+	-moz-box-shadow: inset 0 0 5px 1px #ccc;
+	-webkit-box-shadow: inset 0 0 5px 1px #ccc;
+	box-shadow: inset 0 0 5px 1px #ccc;
+}
+.radio-btn i {
+	border: 1px solid #E1E2E4;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	left: 4px;
+	top: 4px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+.checksection {
+	font-size:12px;
+}
+.form-roundedbtn {
+	border-radius: 2rem;
+	padding:10px 14px;
+	width:130px;
+	background:#8e2e18;
+	border:none;
+	font-weight:bold;
+	margin:35px 0 0 0;
+	font-size:15px;
+}
+.checkedRadio i {
+	background-color: #898A8C;
+}
+.userpic {
+	background:#000;
+	border-radius: 30px;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	margin-right: 8px;
+	top: -9px;
+	position: relative;
+}
+.username {
+	font-weight:normal;
+	color:#21a7d0;
+	font-size:15px;
+	display:inline-block;
+}
+.sub {
+	color:#8c8c8c;
+	font-size:11px;
+	display:block;
+}
+#formFileMultiple {
+	background: #22678e;
+	color: #fff;
+}
+.form-check-inline {
+	padding-left:0;
+}
+.formadduser {
+	margin-top:16px;
+}
+.formadduser .form-group {
+	margin:14px 0px 14px 0px;
+	font-weight:bold;
+	color:#515151;
+}
+.formadduser .form-group label {
+	padding-bottom:6px;
+}
+.heading {
+	font-weight:bold;
+	color:#22678e;
+	margin-bottom:23px;
+}
+ @media (max-width: 576px) {
+.sidebar-nav .nav {
+width:100%;
+}
+.formsec {
+width:98%;
+padding-left:2%;
+}
+}

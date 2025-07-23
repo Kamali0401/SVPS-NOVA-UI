@@ -1,0 +1,69 @@
+.grid-table {
+  overflow: auto;
+  height: 400px;
+}
+.grid-table thead {
+  background-color: #f7f7f7;
+}
+.grid-table thead tr td {
+  border: 0.5px solid rgb(211, 211, 211);
+  text-align: center;
+  padding: 10px 10px;
+}
+.grid-table tbody tr td {
+  border: 0.5px solid rgb(211, 211, 211);
+  text-align: center;
+  padding: 10px 0px;
+}
+.grid-table .thumb_Img_Block {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.grid-table .thumbImg {
+  width: 40px;
+  margin: 5px;
+}
+.grid-table .thumbImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.container22 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.grid-wrapper22 {
+  display: flex;
+  flex: 1 1 0px;
+}
+
+.grid-wrapper22 > div {
+  width: 100%;
+  height: 100%;
+}
+
+button.export22 {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.popup_window {
+  position: absolute;
+  background-color: rgba(81, 81, 81, 0.463);
+  width: 100%;
+  height: 120%;
+  /* transform: translate(-50%, -50%); */
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
